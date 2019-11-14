@@ -1,0 +1,92 @@
+.page{
+	position: absolute;
+	top: 0;		
+	width: 100%;
+	/*top: -100%;		*/
+}
+.page0{
+	width: 100%;
+	position: relative;
+	background-color: #483D8B;
+	background-image:url(../images/bluebg.png);
+	overflow: hidden;
+}
+.page0 .juesebox{
+	height: 550px;
+	width: 370px;
+	position: absolute;
+	background: white;
+	left: 600px;
+	top: 200px;
+	box-shadow: 5px 5px 20px 10px #ddd;
+}
+.page0 .juese{	
+	border: 10px solid rgba(0,0,0,0.3);
+	box-shadow: 5px 5px 5px 10px #ccc;
+	width: 300px;
+	margin-top: 25px;
+	height: 400px;	margin-left: 25px;	
+	background-color: #483D8B;
+	background-image: url(../images/ren.png);
+	background-size: 400px auto;
+	background-position: -50px 0px;
+}
+.page0 .jueseimg{
+	opacity: 0;
+}
+.page0 .zhangmen{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 80px;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 80px;
+	font-family: fantasy;
+}
+.page0 .jieshao{
+	height: 550px;
+	width:200px;
+	position: absolute;
+	left: 300px;
+	top: 200px;		
+	box-shadow: 5px 5px 5px 10px white;
+	background-color:#483D8B;
+	padding:0px 20px;
+}	
+.page0 .jieshao p{
+	font-size: 25px;
+	color: white;
+	text-align: right;
+	font-weight: bold;
+	margin:22px auto;
+	position: relative;
+}	
+.page0 .jieshao p span:nth-child(2){
+	float: left;
+	font-size: 18px;
+	color: #fb6754;
+	position: absolute;
+	left: 0px;
+	top: 9px;
+}
+.page0 .jieshao p span:nth-child(3){
+	font-size: 15px;
+	color: black;
+}
+.page0 .biaoti{
+	height: 300px;
+	width: 300px;
+	border:10px solid #ccc;	
+	font-size: 60px;
+	line-height: 300px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	right: 300px;
+	top: 200px;
+	color: #ccc;
+	font-weight: bold;
+}
